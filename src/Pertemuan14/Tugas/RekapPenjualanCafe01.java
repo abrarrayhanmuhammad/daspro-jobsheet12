@@ -112,7 +112,7 @@ public class RekapPenjualanCafe01 {
 
         tampilMenuTertinggi(menu, penjualan);
 
-        System.out.println("\n==== Data Rata-Rata Penjualan Setiap Menu Selama 7 Hari ====\n");
+        System.out.println("\n==== Data Rata-Rata Penjualan Setiap Menu Selama " + hari + " Hari ====\n");
 
         tampilRataRata(menu, penjualan);
     }
